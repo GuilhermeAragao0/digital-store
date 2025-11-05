@@ -1,2 +1,2 @@
-# digital-store
-Proposta de desenvolvimento de loja virtual de tenis da digital college. fs08.
+# Loja Digital de Tenis
+Proposta de desenvolvimento de loja virtual de tênis da digital college. fs08.
