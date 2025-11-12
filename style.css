@@ -38,9 +38,9 @@ header {
             color: var(--cor-destaque);
         }
     }
-}
-
-main {
+}   
+    
+    main {
     padding: 3.9375rem 0 5rem;
     background: linear-gradient(
       var(--cor-gradiend-primaria), 
