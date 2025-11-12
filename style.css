@@ -5,6 +5,8 @@
     --cor-branca: #FFF;
     --cor-gradiend-primaria: #B5B6F2;
     --cor-gradiend-secundaria: #EFEFFF;
+    --cor-titulo: #1F1F1F;
+    --cor-paragrafo: #474747;
 }
 
 *{
@@ -12,6 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    color: var(--cor-paragrafo);
 }
 html, body{
     height: 100%;
@@ -47,5 +50,23 @@ main {
         height: 35.75rem;
         margin: 0 auto;
         background-color:var(--cor-branca);
+        padding: 1.875rem;
+
+        .titulo{
+           
+            h1{
+                font-size: 1.375rem;
+                letter-spacing: .125rem;
+                text-align: center;
+                color: var(--cor-titulo);
+                line-height: 2.125rem
+            }
+
+            p{
+                font-size: .875rem;
+                letter-spacing: .0156rem;
+                text-align: center;
+            }
+        }
      }
 }
