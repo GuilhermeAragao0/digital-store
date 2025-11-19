@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
-:root{
+:root {
     --cor-destaque: #c92071;
     --cor-branca: #FFF;
     --cor-gradiend-primaria: #B5B6F2;
@@ -11,19 +11,19 @@
     --cor-entrada-texto: #66666685;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     color: var(--cor-paragrafo);
 }
-html, body{
+html, body {
     height: 100%;
 }
 
 header {
-    div{
+    div {
         width: 11.125rem;
         height: 4rem;
         margin: 0 auto;
@@ -32,7 +32,7 @@ header {
         align-items: center;
         gap: .2725rem;
 
-        span{
+        span {
             font-size: 1.2406rem;
             font-weight: 600;
             color: var(--cor-destaque);
@@ -49,7 +49,6 @@ header {
 
     form {
         width: 19.6875rem;
-        height: 35.75rem;
         margin: 0 auto;
         background-color:var(--cor-branca);
         padding: 1.875rem;
@@ -57,8 +56,8 @@ header {
         flex-direction: column;
         gap: 1.875rem;
 
-        .titulo{
-           
+        .titulo {
+            
             h1{
                 font-size: 1.375rem;
                 letter-spacing: .125rem;
@@ -74,7 +73,7 @@ header {
             }
         }
 
-        .entrada{
+        .entrada {
             display: flex;
             flex-direction: column;
             gap: 1.25rem;
@@ -116,6 +115,7 @@ header {
             font-weight: 500;
             line-height: 1.375rem;
             letter-spacing: .0156rem;
+            width: fit-content;
         }
 
         button {
@@ -127,6 +127,20 @@ header {
             font-weight: 700;
             letter-spacing: .0469rem;
             font-size: 1rem;
+        }
+
+        .social {
+            width: fit-content;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            align-items: center;
+            
+            .icones {
+                display: flex;
+                gap: 1.5rem;
+            }
         }
     }
  }
